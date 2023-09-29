@@ -2,9 +2,7 @@ const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 const app = express();
-app.use("*", (req, res)=> {
-  res.status(404).send("Not found");
-});
+
 app.use(
   "/characters",
   createProxyMiddleware({
@@ -28,5 +26,5 @@ app.use(
   );
 
 app.listen(8000, () => {
-  console.log("listening on http://localhost:8000");
+  console.log("listening on http://localhost:8000 ");
 });
