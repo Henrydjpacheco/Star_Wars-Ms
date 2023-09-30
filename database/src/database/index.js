@@ -1,10 +1,10 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
+const { MONGO_URI } = require("../config/envs");
 
-const conn = mongoose.createConnection("mongodb+srv://AurelioBaldor:7e6rngm83BFfqoid@cluster0.sl3yr0z.mongodb.net/star_wars");
-
+const conn = mongoose.createConnection(MONGO_URI);
 
 module.exports = {
-    Character:  conn.model("Character", require("./schemas/characterSchema")),
-    Film: conn.model("Film", require("./schemas/filmSchema")),
-    Planet: conn.model("Planet", require("./schemas/planetShema"))
-}
+  Character: conn.model("Character", require("./schemas/characterSchema")),
+  Film: conn.model("Film", require("./schemas/filmSchema")),
+  Planet: conn.model("Planet", require("./schemas/planetShema")),
+};
