@@ -40,6 +40,31 @@ Endpoint: /characters
 - Crear un nuevo personaje 
   Método: POST
   Endpoint: /characters 
+Cuerpo de la Solicitud (JSON):
+```
+
+ {
+      "_id": "9",
+      "name": "Biggs Darklighter",
+      "height": "183",
+      "mass": "84",
+      "hair_color": "black",
+      "skin_color": "light",
+      "eye_color": "brown",
+      "birth_year": "24BBY",
+      "gender": "male",
+      "homeworld": {
+        "_id": "1",
+        "name": "Tatooine"
+      },
+      "films": [
+        {
+          "_id": "1",
+          "title": "A New Hope"
+        }
+      ]
+    }
+```
 
 
 ## Films:
