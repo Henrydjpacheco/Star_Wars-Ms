@@ -33,8 +33,8 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 - Método: GET
 - Endpoint: /characters
 ##### Obtener un personaje espesifico
-  Método: GET
-    Endpoint: /characters/:id
+- Método: GET
+- Endpoint: /characters/:id
 - Parámetros URL:
     id (String): Identificador único      del personaje
 #### Crear un nuevo personaje 
