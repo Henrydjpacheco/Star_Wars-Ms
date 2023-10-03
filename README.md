@@ -21,10 +21,12 @@ npm install
 - Estructura de la respuesta
 >Todas las respuestas son en formato JSON y siguen el siguiente formato:
 
-```{
+```bash 
+{
  "Error":false,
  "data":{}
-} ```
+}
+ ```
 
 ## Gateway: 
 
