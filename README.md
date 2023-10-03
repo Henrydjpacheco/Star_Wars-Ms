@@ -29,18 +29,18 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
  ```
 
 - listar todos los personajes
-Método: GET
+  Método: GET
 - Obtener todas las tareas
-Método: GET
+  Método: GET
 Endpoint: /characters
 - Obtener un personaje espesifico
-Método: GET
-Endpoint: /characters/:id
-Parámetros URL:
+  Método: GET
+  Endpoint: /characters/:id
+  Parámetros URL:
 id (String): Identificador único de la tarea
 - Crear un nuevo personaje 
-Método: POST
-Endpoint: /characters 
+  Método: POST
+  Endpoint: /characters 
 
 
 
