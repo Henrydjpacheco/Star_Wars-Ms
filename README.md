@@ -5,6 +5,16 @@ La Api de Star War permite a los usuarios hacer consultas acerca de los personaj
 de las sagas de starwar
 
 ![FlowChart](https://res.cloudinary.com/didzhs53d/image/upload/v1696267787/uyD3Ko0Zf0tv8Nia_aM6TUMAIiHuYOPAL_q0hmyn.png)
+## Configuración y Requisitos
+
+- Node.js 12.0 o superior
+- npm (Node Package Manager) instalado
+
+Para instalar y ejecutar la API, sigue estos pasos:
+
+```bash
+npm install
+```
 ## Endpoints and methods
 - URL Base 
 ```http://35.188.143.251:8000```
@@ -13,7 +23,7 @@ de las sagas de starwar
 
 ```{
  "Error":false,
- "data":{},
+ "data":{}
 } ```
 
 ## Gateway: 
