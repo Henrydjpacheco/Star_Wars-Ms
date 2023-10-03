@@ -35,12 +35,12 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 ##### Obtener un personaje espesifico
   Método: GET
     Endpoint: /characters/:id
-    Parámetros URL:
-      id (String): Identificador único      de la tarea
-- Crear un nuevo personaje 
-  Método: POST
-  Endpoint: /characters 
-Cuerpo de la Solicitud (JSON):
+- Parámetros URL:
+  id (String): Identificador único      del personaje
+#### Crear un nuevo personaje 
+- Método: POST
+- Endpoint: /characters 
+#### Cuerpo de la Solicitud (JSON):
 ```
 
  {
