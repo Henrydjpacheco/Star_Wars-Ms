@@ -10,11 +10,11 @@ de las sagas de starwar
 ```http://35.188.143.251:8000```
 - Estructura de la respuesta
 Todas las respuestas son en formato JSON y siguen el siguiente formato:
-``` {
- "Error":false,
- "data":{}
-} ```
 
+```{
+ "Error":false,
+ "data":{},
+} ```
 
 ## Gateway: 
 
