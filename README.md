@@ -19,8 +19,8 @@ http://35.188.143.251:8000
 
 ## Database:
 
-#Errores y Códigos de Estado HTTP
+# Errores y Códigos de Estado HTTP
 
--400 Bad Request: Se produce si la solicitud es inválida o está mal formada.
--404 Not Found: Se produce si la tarea no se encuentra.
--500 Internal Server Error: Se produce en caso de un error interno del servidor.
+- 400 Bad Request: Se produce si la solicitud es inválida o está mal formada.
+- 404 Not Found: Se produce si la tarea no se encuentra.
+- 500 Internal Server Error: Se produce en caso de un error interno del servidor.
