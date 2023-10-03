@@ -11,8 +11,8 @@ de las sagas de starwar
 - Estructura de la respuesta
 Todas las respuestas son en formato JSON y siguen el siguiente formato:
 ```{
-"Error":false,
-"data":{}
+ "Error":false,
+ "data":{}
 }```
 
 
