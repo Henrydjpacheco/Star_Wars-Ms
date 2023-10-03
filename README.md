@@ -27,6 +27,7 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
  "data":{}
 }
  ```
+## Characters:
 
 - listar todos los personajes
  Método: GET
@@ -40,11 +41,6 @@ Endpoint: /characters
   Método: POST
   Endpoint: /characters 
 
-
-
-## Gateway: 
-
-## Characters:
 
 ## Films:
 
