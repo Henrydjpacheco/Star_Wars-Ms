@@ -5,9 +5,16 @@ La Api de Star War permite a los usuarios hacer consultas acerca de los personaj
 de las sagas de starwar
 
 ![FlowChart](https://res.cloudinary.com/didzhs53d/image/upload/v1696267787/uyD3Ko0Zf0tv8Nia_aM6TUMAIiHuYOPAL_q0hmyn.png)
-# URL Base
+## Endpoints and methods
+- URL Base 
+‘‘‘http://35.188.143.251:8000‘‘‘
+- Estructura de la respuesta
+Todas las respuestas son en formato JSON y siguen el siguiente formato:
+‘‘‘ {
+"Error":false,
+"data":{}
+}‘‘‘
 
-http://35.188.143.251:8000
 
 ## Gateway:
 
