@@ -15,10 +15,10 @@ Para instalar y ejecutar la API, sigue estos pasos:
 ```bash
 npm install
 ```
-# Endpoints and methods
-## URL Base 
+## Endpoints and methods
+### URL Base 
 ```http://35.188.143.251:8000```
-## Estructura de la respuesta
+### Estructura de la respuesta
 Todas las respuestas son en formato JSON y siguen el siguiente formato:
 
 ```bash 
@@ -27,7 +27,7 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
  "data":{}
 }
  ```
-## Characters:
+### Characters:
 
 - listar todos los personajes
  Método: GET
