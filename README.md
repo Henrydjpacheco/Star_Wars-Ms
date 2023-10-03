@@ -36,11 +36,11 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
   Método: GET
     Endpoint: /characters/:id
 - Parámetros URL:
-  id (String): Identificador único      del personaje
+    id (String): Identificador único      del personaje
 #### Crear un nuevo personaje 
 - Método: POST
 - Endpoint: /characters 
-#### Cuerpo de la Solicitud (JSON):
+- Cuerpo de la Solicitud (JSON):
 ```
 
  {
@@ -67,13 +67,12 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 ```
 
 
-## Films:
+### Films:
 
 ## Planets:
 
-## Database:
 
-# Errores y Códigos de Estado HTTP
+## Errores y Códigos de Estado HTTP
 
 - 400 Bad Request: Se produce si la solicitud es inválida o está mal formada.
 
