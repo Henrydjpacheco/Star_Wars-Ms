@@ -29,10 +29,10 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
  ```
 ### Characters:
 
-- listar todos los personajes
- Método: GET
-Endpoint: /characters
-- Obtener un personaje espesifico
+#### listar todos los personajes
+- Método: GET
+- Endpoint: /characters
+##### Obtener un personaje espesifico
   Método: GET
     Endpoint: /characters/:id
     Parámetros URL:
