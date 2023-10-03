@@ -15,7 +15,7 @@ Para instalar y ejecutar la API, sigue estos pasos:
 ```bash
 npm install
 ```
-#Endpoints and methods
+# Endpoints and methods
 ## URL Base 
 ```http://35.188.143.251:8000```
 ## Estructura de la respuesta
@@ -29,15 +29,13 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
  ```
 
 - listar todos los personajes
-  Método: GET
-- Obtener todas las tareas
-  Método: GET
+ Método: GET
 Endpoint: /characters
 - Obtener un personaje espesifico
   Método: GET
     Endpoint: /characters/:id
     Parámetros URL:
-      id (String): Identificador único            de la tarea
+      id (String): Identificador único      de la tarea
 - Crear un nuevo personaje 
   Método: POST
   Endpoint: /characters 
