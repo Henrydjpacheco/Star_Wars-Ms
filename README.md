@@ -69,7 +69,7 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 
 ### Films:
 
-## Planets:
+### Planets:
 
 
 ## Errores y Códigos de Estado HTTP
