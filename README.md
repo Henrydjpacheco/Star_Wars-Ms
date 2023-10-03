@@ -1,6 +1,6 @@
 # Star Wars API 
 ## Introduccion
->Implementacion de arquitectura back end con microservicios en javascript 
+Implementacion de arquitectura back end con microservicios en javascript 
 La Api de Star War permite a los usuarios hacer consultas acerca de los personajes, peliculas y planetas 
 de las sagas de starwar
 
@@ -19,7 +19,7 @@ npm install
 ## URL Base 
 ```http://35.188.143.251:8000```
 ## Estructura de la respuesta
->Todas las respuestas son en formato JSON y siguen el siguiente formato:
+Todas las respuestas son en formato JSON y siguen el siguiente formato:
 
 ```bash 
 {
@@ -27,6 +27,22 @@ npm install
  "data":{}
 }
  ```
+
+- listar todos los personajes
+Método: GET
+- Obtener todas las tareas
+Método: GET
+Endpoint: /characters
+- Obtener un personaje espesifico
+Método: GET
+Endpoint: /characters/:id
+Parámetros URL:
+id (String): Identificador único de la tarea
+- Crear un nuevo personaje 
+Método: POST
+Endpoint: /characters 
+
+
 
 ## Gateway: 
 
