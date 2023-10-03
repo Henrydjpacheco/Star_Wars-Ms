@@ -16,7 +16,7 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 }```
 
 
-## Gateway:
+## Gateway: 
 
 ## Characters:
 
