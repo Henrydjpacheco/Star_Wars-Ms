@@ -14,10 +14,13 @@ de las sagas de starwar
 - Node.js 12.0 o superior
 - npm (Node Package Manager) instalado
 
-Para instalar y ejecutar la API, sigue estos pasos:
-
+Para ejecutar la API, sigue estos pasos:
+Desde la raiz del proyecto donde se encuentra el archivo Yml
 ```bash
-npm install
+docker-compose build
+```
+```bash
+docker-compose up
 ```
 ## Endpoints and methods
 
