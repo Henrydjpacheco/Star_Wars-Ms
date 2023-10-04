@@ -15,7 +15,7 @@ de las sagas de starwar
 - npm (Node Package Manager) instalado
 
 Para ejecutar la API, sigue estos pasos:
-Desde la raiz del proyecto donde se encuentra el archivo Yml
+- Desde la raiz del proyecto donde se encuentra el archivo Yml
 ```bash
 docker-compose build
 ```
