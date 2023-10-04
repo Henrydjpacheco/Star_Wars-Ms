@@ -5,7 +5,7 @@ Proyecto integrador del Upskilling: arquitectura de microsercios en javascript
 La Api de Star War permite a los usuarios hacer consultas acerca de los personajes, peliculas y planetas 
 de las sagas de star wars
 
-- Implementar la arquitectura de microservicios en javascript 
+- Implementar la ****arquitectura de microservicios**** en javascript 
 - bases de datos no relacionales
 - Mejores practicas de dasarrollo en express del lado del servidor
 
@@ -229,8 +229,8 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 
 ## Errores y Códigos de Estado HTTP
 
-- 400 Bad Request: Se produce si la solicitud es inválida o está mal formada.
+- ****400**** Bad Request: Se produce si la solicitud es inválida o está mal formada.
 
-- 404 Not Found: Se produce si la tarea no se encuentra.
+- ****404**** Not Found: Se produce si la tarea no se encuentra.
 
-- 500 Internal Server Error: Se produce en caso de un error interno del servidor.
+- ****500**** Internal Server Error: Se produce en caso de un error interno del servidor.
