@@ -1,10 +1,11 @@
 # Star Wars API 
 ## Introduccion
+Proyecto integrador del Upskilling: arquitectura de microsercios en javascript
 
 La Api de Star War permite a los usuarios hacer consultas acerca de los personajes, peliculas y planetas 
-de las sagas de starwar
+de las sagas de star wars
 
-- Implementacion de arquitectura back end con microservicios en javascript
+- Implementar la arquitectura de microservicios en javascript 
 - bases de datos no relacionales
 - Mejores practicas de dasarrollo en express del lado del servidor
 
@@ -39,16 +40,16 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 ### Characters:
 
 #### listar todos los personajes
-- Método: GET
-- Endpoint: /characters
+- Método: ****GET****
+- Endpoint: ****'/characters'****
 ##### Obtener un personaje espesifico
-- Método: GET
-- Endpoint: /characters/:id
+- Método: ****GET****
+- Endpoint: ****'/characters/:id'****
 - Parámetros URL:
     id (String): Identificador único del personaje
 #### Crear un nuevo personaje 
-- Método: POST
-- Endpoint: /characters 
+- Método: ****POST****
+- Endpoint: ****'/characters'**** 
 - Cuerpo de la Solicitud (JSON):
 ```
 
@@ -79,16 +80,16 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 ### Films:
 
 #### listar todas las peliculas 
-- Método: GET
-- Endpoint: /films
+- Método: ****GET****
+- Endpoint: ****'/films'****
 ##### Obtener un personaje espesifico
-- Método: GET
-- Endpoint: /films/:id
+- Método: ****GET****
+- Endpoint: ****'/films/:id'****
 - Parámetros URL:
     id (String): Identificador de la pelicula 
 #### Crear una nueva pelicula
-- Método: POST
-- Endpoint: /films
+- Método: ****POST****
+- Endpoint: ****'/films'****
 - Cuerpo de la Solicitud (JSON):
 ```
 {
@@ -188,16 +189,16 @@ Todas las respuestas son en formato JSON y siguen el siguiente formato:
 
 ### Planets:
 #### listar todos los planetas 
-- Método: GET
-- Endpoint: '/planets'
-##### Obtener un personaje espesifico
-- Método: GET
-- Endpoint: 'films/:id'
+- Método: ****GET****
+- Endpoint: ****'/planets'****
+##### Obtener un planeta especifico
+- Método: ****GET****
+- Endpoint: ****'planets/:id'****
 - Parámetros URL:
-    id (String): Identificador de la pelicula 
-#### Crear una nueva pelicula
-- Método: POST
-- Endpoint: '/films'
+    id (String): Identificador del planeta
+#### Crear un nuevo planeta
+- Método: ****POST****
+- Endpoint: ****'/planets'****
 - Cuerpo de la Solicitud (JSON):
 ```
 {
